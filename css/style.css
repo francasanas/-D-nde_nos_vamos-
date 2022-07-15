@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(https://okeefe.com.ar/barrioscerradoszonasur/img/slider/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding-bottom: 18%;
+    height: 100vh;
+}
+
+.container__header{
+    max-width: 87%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 180px;
+    padding-top: 28%;
+    cursor: pointer;
+}
+.menu{
+    margin-left: 5%;
+    font-weight: bolder;
+}
+
+.menu nav ul{
+    display: flex;
+}
+
+.menu nav ul li{
+    list-style: none;
+    padding: 0px 20px;
+}
+.menu nav ul li a{
+    font-size: 26px;
+    text-decoration: none;
+    color: white;
+    transition: opacity 300ms;
+    font-family: 'Montserrat', sans-serif;;
+}
+.menu nav ul li a:hover{
+    opacity: 0.6;
+}
+.btn__header-reserva{
+    padding: 10% 40px;
+    background-color:transparent;
+    font-size: 15px;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.underNavMenu{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center; 
+    margin-top: 120px;
+}
+.underH1{
+    font-size: 230%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    color: white;
+}
+
+.underH3{
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;    
+    background-color: rgba(70, 69, 69, 0.466);
+    width: 70vw;
+    height: 40vh;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.underH3 h3{
+    margin-top: 60px;
+    width: 80%;
+    font-size: 225%;
+}
+
+.underH3 h2{
+    margin-top: 50px;
+    width: 80%;
+    font-size: 225%;
+}
+
+.boton_contendedor{
+    background-color: rgb(49, 47, 47);
+    width: 19%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14.6%;
+    cursor: pointer;
+}
+
+.boton_contendedor i{
+    font-size: 20px;
+    color: white;
+
+}
+
+.btn-wsp{
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+}
+
+/*Casa en Alquiler Inicio*/
+
+.casasEnAlquiler{
+    background-color: #fff;
+    width: 100%;
+    height: 1000px;
+}
+.tituloCasasEnAlquiler{
+    font-size: 240%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 7%;
+    font-weight: bolder;
+    color: black;
+}
+.infocasasEnAlquiler{
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;    
+    width: 70vw;
+    height: 40vh;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-left: 14.6%;
+}
+.infocasasEnAlquiler h3{
+    margin-top: 60px;
+    width: 100%;
+    font-size: 140%;
+}
